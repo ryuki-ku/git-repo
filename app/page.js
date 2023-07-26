@@ -1,3 +1,7 @@
+//các component đang khởi chạy trên nextjs được chạy trên server side
+//còn riêng react thì chạy trên client side cho nên nếu muốn dùng các hooks(useState, useEffect,...) 
+//thì ngay hàng đầu tiên của trang thêm vào 'use client' 
+
 import Image from 'next/image'
 
 export default function Home() {
